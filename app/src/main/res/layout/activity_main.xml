@@ -18,10 +18,13 @@
         android:layout_below="@id/toolbar"
         android:padding="@dimen/spacing">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello World!" />
+        <ImageView
+            android:id="@+id/img_view"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@color/grey300"
+            android:contentDescription="@string/photo"
+            android:scaleType="centerCrop" />
 
     </RelativeLayout>
 
